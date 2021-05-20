@@ -21,7 +21,7 @@ body {
 
 .logo p {
   font-size: 50px;
-  color: white;
+  color:white;
 
   font-weight: bold;
 }
@@ -108,15 +108,12 @@ h1 {
   width: 10px;
   height: 10px;
   border: 1px solid black;
-  left: 760px;
+  left: 50%;
   bottom: 5px;
   background-color: whitesmoke;
   transform: rotate(45deg);
 }
 
-.who-we-are {
-  margin: 0 auto;
-}
 
 .who-we-are article {
   width: 30%;
@@ -152,19 +149,10 @@ h1 {
 }
 
 .what-people-says {
-  margin: 100px auto;
+  margin: 100px auto 0px auto;
 }
 
-.what-people-says .line-break .cube {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border: 1px solid black;
-  left: 950px;
-  bottom: 5px;
-  background-color: whitesmoke;
-  transform: rotate(45deg);
-}
+
 
 .what-people-says article {
   width: 30%;
@@ -202,20 +190,8 @@ h1 {
   color: white;
 }
 
-.get-in-touch-with-us {
-  margin-top: 200px;
-}
 
-.get-in-touch-with-us .line-break .cube {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border: 1px solid black;
-  left: 950px;
-  bottom: 5px;
-  background-color: whitesmoke;
-  transform: rotate(45deg);
-}
+
 
 .get-in-touch-with-us iframe {
   width: 100%;
@@ -275,16 +251,7 @@ h1 {
   text-align: center;
 }
 
-.mail-us .line-break .cube {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border: 1px solid black;
-  left: 950px;
-  bottom: 5px;
-  background-color: whitesmoke;
-  transform: rotate(45deg);
-}
+
 form {
   text-align: center;
   width: 80%;
@@ -315,6 +282,7 @@ footer ul {
   width: 64%;
   float: right;
   margin: 50px auto 20px auto;
+  list-style-type: none;
 }
 footer ul li {
   padding: 5px 20px;
@@ -331,4 +299,264 @@ footer p {
   float: right;
   margin: 20px auto;
   color: white;
+}
+
+
+@media all and (max-width: 1200px) {
+
+  .heading-container button {
+    
+    left: 42%;
+  }
+    
+
+  
+
+  .line-break h2 {
+    font-size: 30px;
+  }
+
+  
+
+  .who-we-are {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .who-we-are article {
+    width: 46%;
+    float: left;
+    
+  }
+
+  .who-we-are article img {
+    width: 80%;
+  }
+
+  #treci-artikl{
+    margin-left: 20px;
+  }
+
+  .what-people-says {
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .what-people-says article {
+    width: 44%;
+    margin-bottom: 20px;
+  }
+
+
+  .get-in-touch-with-us {
+    margin-top: 50px;
+  }
+
+  #selena-gomez {
+    margin-left: 27px;
+  }
+
+  .footer-container article {
+    height: 250px;
+    float: left;
+    background-color: yellow;
+    width: 50%;
+    margin: 0;
+  }
+
+  form input {
+    width: 150px;
+    height: 40px;
+    margin: 20px 20px;
+    padding: 0 5px;
+  }
+
+  form textarea {
+    width: 540px;
+    padding: 10px 10px;
+  }
+
+  .footer-container{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  footer ul {
+    width: 100%;
+    float: none;
+    margin: 50px auto 20px auto;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  footer ul li {
+    float: none;
+    display: inline-block;
+    padding: 5px 10px;
+  }
+  
+
+  footer p {
+    display: inline-block;
+    width: 100%;
+    float: none;
+    margin: 20px auto;
+    color: white;
+    text-align: center;
+  }
+
+}
+
+@media all and (max-width:768px){
+
+  .line-break h2 {
+    width: 80%;
+    font-size: 40px;
+  }
+
+   .line-break .cube {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    left: 50%;
+    bottom: -1px;
+    background-color: whitesmoke;
+    transform: rotate(45deg);
+  }
+
+  .logo {
+    float: none;
+    width:100%;
+    height: 340px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px 50px;
+  }
+  .logo p{
+    color: #777777;
+  }
+
+  .logo span {
+    
+    border: 7px solid #777777;
+    border-right: none;
+  }
+
+  nav {
+    text-align: center;
+    margin-left: 25px;
+  }
+
+  nav ul {
+
+    width: 95%;
+    
+    float: none;
+    background-color: #7fc2f7;
+    text-align: center;
+    margin-top: -200px;
+  }
+  
+  nav ul li {
+    float: none;
+    list-style-type: none;
+    padding: 10px 20px;
+    margin-top: 2px;
+    
+  }
+
+  h1 {
+    font-size: 32px;
+
+    margin-top: 300px;
+  }
+
+  .heading-container button {
+    background-color: #1c70b1;
+    padding: 10px 30px;
+    position: absolute;
+    top: 100%;
+    left: 41%;
+    border-radius: 30px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+  }
+
+  .who-we-are article {
+    width: 98%;
+    float: left;
+    margin-bottom: 30px;
+    
+  }
+
+  .who-we-are article p {
+    line-height: 2;
+  }
+
+  .who-we-are article img {
+    display: block;
+    width: 95%;
+    margin-left: 24px;
+  }
+
+  .who-we-are article:nth-child(2) {
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 90%;
+  }
+
+  .what-people-says article {
+    width: 93%;
+    margin-bottom: 20px;
+    
+  }
+  .what-people-says article p {
+    font-size: 28px;
+  }
+
+  #jennifer-lopez {
+    margin-left: 26px;
+  }
+
+  .iframe iframe {
+    height: 350px;
+  }
+
+  form {
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  form input {
+    width: 100%;
+    
+    height: 40px;
+    
+    padding: 0 5px;
+  }
+
+  form textarea {
+    width: 100%;
+    padding: 10px 10px;
+    margin-left: auto;
+    /* margin-left: 18px; */
+  }
+
+
+
+
+
+
+
+
+
+
 }
