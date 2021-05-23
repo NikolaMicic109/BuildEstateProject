@@ -21,7 +21,7 @@ body {
 
 .logo p {
   font-size: 50px;
-  color:white;
+  color: white;
 
   font-weight: bold;
 }
@@ -114,7 +114,6 @@ h1 {
   transform: rotate(45deg);
 }
 
-
 .who-we-are article {
   width: 30%;
   float: left;
@@ -152,8 +151,6 @@ h1 {
   margin: 100px auto 0px auto;
 }
 
-
-
 .what-people-says article {
   width: 30%;
   background-color: #82c3f5;
@@ -189,9 +186,6 @@ h1 {
 .what-people-says article > p {
   color: white;
 }
-
-
-
 
 .get-in-touch-with-us iframe {
   width: 100%;
@@ -251,7 +245,6 @@ h1 {
   text-align: center;
 }
 
-
 form {
   text-align: center;
   width: 80%;
@@ -301,22 +294,14 @@ footer p {
   color: white;
 }
 
-
 @media all and (max-width: 1200px) {
-
   .heading-container button {
-    
     left: 42%;
   }
-    
-
-  
 
   .line-break h2 {
     font-size: 30px;
   }
-
-  
 
   .who-we-are {
     width: 100%;
@@ -326,28 +311,25 @@ footer p {
   .who-we-are article {
     width: 46%;
     float: left;
-    
   }
 
   .who-we-are article img {
     width: 80%;
   }
 
-  #treci-artikl{
+  #treci-artikl {
     margin-left: 20px;
   }
 
   .what-people-says {
     margin-left: auto;
     margin-right: auto;
-    
   }
 
   .what-people-says article {
     width: 44%;
     margin-bottom: 20px;
   }
-
 
   .get-in-touch-with-us {
     margin-top: 50px;
@@ -377,7 +359,7 @@ footer p {
     padding: 10px 10px;
   }
 
-  .footer-container{
+  .footer-container {
     width: 100%;
     margin: 0 auto;
   }
@@ -395,7 +377,6 @@ footer p {
     display: inline-block;
     padding: 5px 10px;
   }
-  
 
   footer p {
     display: inline-block;
@@ -405,17 +386,15 @@ footer p {
     color: white;
     text-align: center;
   }
-
 }
 
-@media all and (max-width:768px){
-
+@media all and (max-width: 768px) {
   .line-break h2 {
     width: 80%;
     font-size: 40px;
   }
 
-   .line-break .cube {
+  .line-break .cube {
     position: absolute;
     width: 20px;
     height: 20px;
@@ -428,19 +407,18 @@ footer p {
 
   .logo {
     float: none;
-    width:100%;
+    width: 100%;
     height: 340px;
     margin: 0 auto;
     text-align: center;
     background-color: #ffffff;
     padding: 20px 50px;
   }
-  .logo p{
+  .logo p {
     color: #777777;
   }
 
   .logo span {
-    
     border: 7px solid #777777;
     border-right: none;
   }
@@ -451,21 +429,19 @@ footer p {
   }
 
   nav ul {
-
     width: 95%;
-    
+
     float: none;
     background-color: #7fc2f7;
     text-align: center;
     margin-top: -200px;
   }
-  
+
   nav ul li {
     float: none;
     list-style-type: none;
     padding: 10px 20px;
     margin-top: 2px;
-    
   }
 
   h1 {
@@ -491,7 +467,6 @@ footer p {
     width: 98%;
     float: left;
     margin-bottom: 30px;
-    
   }
 
   .who-we-are article p {
@@ -513,7 +488,6 @@ footer p {
   .what-people-says article {
     width: 93%;
     margin-bottom: 20px;
-    
   }
   .what-people-says article p {
     font-size: 28px;
@@ -536,27 +510,18 @@ footer p {
   }
 
   form input {
-    width: 100%;
-    
+    width: 95%;
+
     height: 40px;
-    
+
     padding: 0 5px;
+    margin: 20px 0;
   }
 
   form textarea {
-    width: 100%;
+    width: 95%;
     padding: 10px 10px;
     margin-left: auto;
     /* margin-left: 18px; */
   }
-
-
-
-
-
-
-
-
-
-
 }
