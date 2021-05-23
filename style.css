@@ -25,6 +25,7 @@ body {
 
   font-weight: bold;
 }
+
 .logo span {
   display: inline-block;
   color: #fd9727;
@@ -96,7 +97,6 @@ h1 {
   font-size: 40px;
   font-weight: 500;
   position: relative;
-
   margin: auto;
   text-align: center;
   border-bottom: 1px solid black;
@@ -192,55 +192,55 @@ h1 {
   height: 600px;
 }
 
-.footer-container h5 {
+.contact-us-container h5 {
   width: 80%;
   margin: 70px auto 10px auto;
   font-size: 26px;
   color: white;
   text-align: center;
 }
-.footer-container li {
+.contact-us-container li {
   list-style-position: inside;
   list-style-image: url(images/rsz_phone-131964784943439862.png);
   color: white;
 }
 
-.footer-container li.mail {
+.contact-us-container li.mail {
   list-style-image: url(images/rsz_afa7f20b64c59e9588b5b7b035234eae.png);
 }
-.footer-container article {
+.contact-us-container article {
   height: 250px;
   float: left;
   background-color: yellow;
   width: 25%;
   margin: 0;
 }
-.footer-container article.green {
+.contact-us-container article.green {
   background-color: #3bdd9a;
 }
-.footer-container article.green .links-wrap {
+.contact-us-container article.green .links-wrap {
   text-align: center;
 }
-.footer-container article.red {
+.contact-us-container article.red {
   background-color: #fd5282;
 }
-.footer-container article.red .center-images {
+.contact-us-container article.red .center-images {
   margin: 20px auto;
   text-align: center;
 }
 
-.footer-container article.red img {
+.contact-us-container article.red img {
   width: 30px;
   height: 30px;
 }
 
-.footer-container article.blue {
+.contact-us-container article.blue {
   background-color: #376de4;
 }
-.footer-container article.blue ul {
+.contact-us-container article.blue ul {
   text-align: center;
 }
-.footer-container article.little-home {
+.contact-us-container article.little-home {
   background-color: #82c3f5;
   text-align: center;
 }
@@ -339,7 +339,7 @@ footer p {
     margin-left: 27px;
   }
 
-  .footer-container article {
+  .contact-us-container article {
     height: 250px;
     float: left;
     background-color: yellow;
@@ -359,7 +359,7 @@ footer p {
     padding: 10px 10px;
   }
 
-  .footer-container {
+  .contact-us-container {
     width: 100%;
     margin: 0 auto;
   }
@@ -395,14 +395,9 @@ footer p {
   }
 
   .line-break .cube {
-    position: absolute;
     width: 20px;
     height: 20px;
-    border: 1px solid black;
-    left: 50%;
     bottom: -1px;
-    background-color: whitesmoke;
-    transform: rotate(45deg);
   }
 
   .logo {
@@ -430,7 +425,6 @@ footer p {
 
   nav ul {
     width: 95%;
-
     float: none;
     background-color: #7fc2f7;
     text-align: center;
@@ -446,21 +440,11 @@ footer p {
 
   h1 {
     font-size: 32px;
-
     margin-top: 300px;
   }
 
   .heading-container button {
-    background-color: #1c70b1;
-    padding: 10px 30px;
-    position: absolute;
-    top: 100%;
     left: 41%;
-    border-radius: 30px;
-    font-size: 16px;
-    color: white;
-    border: none;
-    margin-top: 20px;
   }
 
   .who-we-are article {
@@ -511,9 +495,7 @@ footer p {
 
   form input {
     width: 95%;
-
     height: 40px;
-
     padding: 0 5px;
     margin: 20px 0;
   }
@@ -522,6 +504,5 @@ footer p {
     width: 95%;
     padding: 10px 10px;
     margin-left: auto;
-    /* margin-left: 18px; */
   }
 }
