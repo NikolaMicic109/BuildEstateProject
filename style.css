@@ -272,14 +272,17 @@ footer {
 }
 
 footer ul {
-  width: 64%;
-  float: right;
+  width: 80%;
+  float: none;
   margin: 50px auto 20px auto;
   list-style-type: none;
+  padding-top: 50px;
+  text-align: center;
 }
 footer ul li {
   padding: 5px 20px;
-  float: left;
+  float: none;
+  display: inline-block;
   list-style-type: none;
 }
 footer ul li a {
@@ -288,10 +291,11 @@ footer ul li a {
 }
 
 footer p {
-  width: 58%;
-  float: right;
+  width: 80%;
+  float: none;
   margin: 20px auto;
   color: white;
+  text-align: center;
 }
 
 @media all and (max-width: 1200px) {
